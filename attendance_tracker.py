@@ -9,7 +9,9 @@ def main():
     for i in range(3):
         print("")
     while True:
-        inp = input("Choose an option: ")
+        for i in range(2):
+            print("")
+        inp = int(input("Choose an option: "))
         if inp == 1:
             name = input("Enter employee name: ")
             attendan = input(f"Is {name} present or absent? ")
